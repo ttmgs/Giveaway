@@ -1,14 +1,11 @@
 import React from 'react';
 import '../styles/nav.css';
-
+import { Link, useLocation } from 'react-router-dom'
 
 const Nav = () => {
 
+	const location = useLocation();
 
-	// const hamburger = document.querySelector(".hamburger");
-	// const navMenu = document.querySelector(".nav-menu");
-	
-	// hamburger.addEventListener("click", mobileMenu);
 	
 	function mobileMenu() {
 		document.querySelector(".hamburger").classList.toggle("active");
@@ -19,17 +16,48 @@ return(
 	<div class="container-fluid">
 <header class="header">
         <nav class="navbar">
-            <a href="#" class="nav-logo">WINDSOR GIVEAWAYS</a>
+            <a href="/" class="nav-logo">WINDSOR GIVEAWAYS</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">HOME</a>
+                    <a href="/" class="nav-link">
+										<Link
+            to="/"
+            className={
+              location.pathname === "/"
+                ? "nav-link active"
+                : "nav-link"
+            }
+          >
+											HOME</Link></a>
                 </li>
                
                 <li class="nav-item">
-                    <a href="#" class="nav-link">PRIZES</a>
+                    <a href="/prizes" class="nav-link">
+											
+										<Link
+            to="/prizes"
+            className={
+              location.pathname === "/prizes"
+                ? "nav-link active"
+                : "nav-link"
+            }
+          >
+											PRIZES</Link></a>
                 </li>
+
+
                 <li class="nav-item">
-                    <a href="#" class="nav-link">CONTACT</a>
+                    <a href="/contact" class="nav-link">
+										<Link
+            to="/contact"
+            className={
+              location.pathname === "/contact"
+                ? "nav-link active"
+                : "nav-link"
+            }
+          >
+											
+											CONTACT</Link></a>
                 </li>
             </ul>
             <div class="hamburger" onClick={mobileMenu}>
