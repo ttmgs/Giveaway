@@ -6,3 +6,11 @@ img{
   width: 400;
   height: 400;
 }
+
+#des{
+  text-align: center;
+}
+
+li {
+  font-size: 15px;
+}
