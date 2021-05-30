@@ -5,7 +5,8 @@ const Footer = () => {
   return(
 
 <div class="footer">
-  <p>Sponsered by Windsor El-Chapo, Hoodboy & WORLDSTAR WINDSOR</p>
+  Sponsered by Windsor El-Chapo, Hoodboy & Worldstar Windsor
+  About the developer
 </div>
   )
 }

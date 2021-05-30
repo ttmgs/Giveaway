@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "windsor-giveaways",
+    "staging": "windsor-giveaways"
+  }
+}

@@ -30,6 +30,17 @@ className={
 >
     Home</Link></a>
 
+    <a href="/enter">
+  <Link
+to="/enter"
+className={
+  location.pathname === "/enter"
+    ? "nav-link active"
+    : "nav-link"
+}
+>
+    How to Enter</Link></a>
+
 
   <a href="/prizes">
   <Link

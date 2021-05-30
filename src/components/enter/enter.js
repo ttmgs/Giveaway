@@ -1,9 +1,10 @@
 import React from "react";
-import "../styles/home.css";
+import "../styles/enter.css";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../images/images.jpg";
 
-const Home = () => {
+
+const Enter = () => {
   const location = useLocation();
 
   return (
@@ -13,8 +14,9 @@ const Home = () => {
           <h2>HOW TO ENTER THE DRAW </h2>
           <div id="box">
             <h1>
-              Send a $30 etransfer to fariqjafer@gmail.com with your name{" "}
+              etransfer $30 to fariqjafer@gmail.com with your name 
             </h1>
+            <h5>** You will then be added the draw</h5>
           </div>
 
           <div id="btnBox">
@@ -27,14 +29,15 @@ const Home = () => {
                     : "nav-link"
                 }
               >
-                View First Prize
+                View Prize 👀
               </Link>
             </button>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
 
-export default Home;
+export default Enter;
