@@ -7,71 +7,80 @@ const Nav = () => {
 	const location = useLocation();
 
 	
-	function mobileMenu() {
-		document.querySelector(".hamburger").classList.toggle("active");
-		document.querySelector(".nav-menu").classList.toggle("active");
-	}
-
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 return(
-	<div class="container-fluid">
-<header class="header">
-        <nav class="navbar">
-            <a href="/" class="nav-logo">WINDSOR GIVEAWAYS</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="/" class="nav-link">
-										<Link
-            to="/"
-            className={
-              location.pathname === "/"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-											HOME</Link></a>
-                </li>
-               
-                <li class="nav-item">
-                    <a href="/prizes" class="nav-link">
-											
-										<Link
-            to="/prizes"
-            className={
-              location.pathname === "/prizes"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-											PRIZES</Link></a>
-                </li>
+
+<div class="topnav" id="myTopnav">
+  <a href="/" class="active">
+  <Link
+to="/"
+className={
+  location.pathname === "/"
+    ? "nav-link active"
+    : "nav-link"
+}
+>
+    Home</Link></a>
 
 
-                <li class="nav-item">
-                    <a href="/contact" class="nav-link">
-										<Link
-            to="/contact"
-            className={
-              location.pathname === "/contact"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-											
-											CONTACT</Link></a>
-                </li>
-            </ul>
-            <div class="hamburger" onClick={mobileMenu}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-</header>
+  <a href="/prizes">
+  <Link
+to="/prizes"
+className={
+  location.pathname === "/prizes"
+    ? "nav-link active"
+    : "nav-link"
+}
+>
+    Prizes</Link></a>
 
-	</div>
+
+  <a href="/contact">
+  <Link
+to="/contact"
+className={
+  location.pathname === "/contact"
+    ? "nav-link active"
+    : "nav-link"
+}
+>
+    Contact</Link></a>
+
+
+  <a href="javascript:void(0);" class="icon" onClick={myFunction}>
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 )
   
 }
 
 export default Nav;
+
+
+
+
+
+
+
+
+
+
+			
+{/* <Link
+to="/prizes"
+className={
+  location.pathname === "/prizes"
+    ? "nav-link active"
+    : "nav-link"
+}
+> */}
