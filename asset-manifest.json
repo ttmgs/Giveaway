@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Giveaway/static/css/main.d6913d4a.chunk.css",
-    "main.js": "/Giveaway/static/js/main.bca1ee05.chunk.js",
-    "main.js.map": "/Giveaway/static/js/main.bca1ee05.chunk.js.map",
+    "main.css": "/Giveaway/static/css/main.326238be.chunk.css",
+    "main.js": "/Giveaway/static/js/main.51102115.chunk.js",
+    "main.js.map": "/Giveaway/static/js/main.51102115.chunk.js.map",
     "runtime-main.js": "/Giveaway/static/js/runtime-main.1216ec8a.js",
     "runtime-main.js.map": "/Giveaway/static/js/runtime-main.1216ec8a.js.map",
     "static/js/2.087ad733.chunk.js": "/Giveaway/static/js/2.087ad733.chunk.js",
@@ -10,15 +10,16 @@
     "static/js/3.9225368f.chunk.js": "/Giveaway/static/js/3.9225368f.chunk.js",
     "static/js/3.9225368f.chunk.js.map": "/Giveaway/static/js/3.9225368f.chunk.js.map",
     "index.html": "/Giveaway/index.html",
-    "static/css/main.d6913d4a.chunk.css.map": "/Giveaway/static/css/main.d6913d4a.chunk.css.map",
+    "static/css/main.326238be.chunk.css.map": "/Giveaway/static/css/main.326238be.chunk.css.map",
     "static/js/2.087ad733.chunk.js.LICENSE.txt": "/Giveaway/static/js/2.087ad733.chunk.js.LICENSE.txt",
+    "static/media/enter.css": "/Giveaway/static/media/names.26b971cc.png",
     "static/media/scooter.0a262bb2.jpg": "/Giveaway/static/media/scooter.0a262bb2.jpg",
-    "static/media/enter.css": "/Giveaway/static/media/windosr.acff238f.jpg"
+    "static/media/home.css": "/Giveaway/static/media/view.c41e3d23.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1216ec8a.js",
     "static/js/2.087ad733.chunk.js",
-    "static/css/main.d6913d4a.chunk.css",
-    "static/js/main.bca1ee05.chunk.js"
+    "static/css/main.326238be.chunk.css",
+    "static/js/main.51102115.chunk.js"
   ]
 }
