@@ -5,11 +5,11 @@ const Footer = () => {
   return(
 <div>
 <div class="footer">
-  Sponsered by Windsor El-Chapo, Hoodboy & Worldstar Windsor
-</div>
-<div id="me">
-About the developer
-</div>
+        <p>Sponsored by windsor el-chapo, Hoodboy and worldstar windsor
+        <p id="myname">website developer: Magdi Tiea<a href="https://github.com/ttmgs"><i class="fa fa-github" href="#" style={{fontSize: "25px"}}></i></a></p></p>
+    
+    </div>
+
 </div>
   )
 }

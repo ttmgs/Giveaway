@@ -16,7 +16,7 @@ return(
 <div id="insta">
 <a href="https://www.instagram.com/worldstarwindsorr/" class="fa fa-instagram"></a>
 
-<h3>THE DRAW WILL BE LIVE ON INSTAGRAM</h3>
+<h3> DRAW WILL BE LIVE ON INSTAGRAM</h3>
 </div>
 
 </div>
