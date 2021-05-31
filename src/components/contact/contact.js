@@ -9,8 +9,8 @@ return(
     </div>
   <div id="contact">
   <a href="#" class="fa fa-snapchat-ghost"></a>
+  <h1>hood_b8265 (Hoodboy) </h1>
     <h1> hoodking274 (Windsor El-Chapo) </h1>
-    <h1>hood_b8265 (Hoodboy) </h1>
   </div>
 
 <div id="insta">

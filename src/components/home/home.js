@@ -35,7 +35,7 @@ className={
 </div>
 
 <div id="description">
-<h4>Dont leave yet... you havent seen the prize!👀</h4>
+<h4>Dont leave yet... you havent seen the prize!</h4>
 
 </div>
 
