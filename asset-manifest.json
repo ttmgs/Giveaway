@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca385cb7.chunk.css",
-    "main.js": "/static/js/main.bca1ee05.chunk.js",
-    "main.js.map": "/static/js/main.bca1ee05.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.37318803.js",
-    "runtime-main.js.map": "/static/js/runtime-main.37318803.js.map",
-    "static/js/2.087ad733.chunk.js": "/static/js/2.087ad733.chunk.js",
-    "static/js/2.087ad733.chunk.js.map": "/static/js/2.087ad733.chunk.js.map",
-    "static/js/3.9225368f.chunk.js": "/static/js/3.9225368f.chunk.js",
-    "static/js/3.9225368f.chunk.js.map": "/static/js/3.9225368f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ca385cb7.chunk.css.map": "/static/css/main.ca385cb7.chunk.css.map",
-    "static/js/2.087ad733.chunk.js.LICENSE.txt": "/static/js/2.087ad733.chunk.js.LICENSE.txt",
-    "static/media/scooter.0a262bb2.jpg": "/static/media/scooter.0a262bb2.jpg",
-    "static/media/enter.css": "/static/media/windosr.acff238f.jpg"
+    "main.css": "/Giveaway/static/css/main.d6913d4a.chunk.css",
+    "main.js": "/Giveaway/static/js/main.bca1ee05.chunk.js",
+    "main.js.map": "/Giveaway/static/js/main.bca1ee05.chunk.js.map",
+    "runtime-main.js": "/Giveaway/static/js/runtime-main.1216ec8a.js",
+    "runtime-main.js.map": "/Giveaway/static/js/runtime-main.1216ec8a.js.map",
+    "static/js/2.087ad733.chunk.js": "/Giveaway/static/js/2.087ad733.chunk.js",
+    "static/js/2.087ad733.chunk.js.map": "/Giveaway/static/js/2.087ad733.chunk.js.map",
+    "static/js/3.9225368f.chunk.js": "/Giveaway/static/js/3.9225368f.chunk.js",
+    "static/js/3.9225368f.chunk.js.map": "/Giveaway/static/js/3.9225368f.chunk.js.map",
+    "index.html": "/Giveaway/index.html",
+    "static/css/main.d6913d4a.chunk.css.map": "/Giveaway/static/css/main.d6913d4a.chunk.css.map",
+    "static/js/2.087ad733.chunk.js.LICENSE.txt": "/Giveaway/static/js/2.087ad733.chunk.js.LICENSE.txt",
+    "static/media/scooter.0a262bb2.jpg": "/Giveaway/static/media/scooter.0a262bb2.jpg",
+    "static/media/enter.css": "/Giveaway/static/media/windosr.acff238f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.37318803.js",
+    "static/js/runtime-main.1216ec8a.js",
     "static/js/2.087ad733.chunk.js",
-    "static/css/main.ca385cb7.chunk.css",
+    "static/css/main.d6913d4a.chunk.css",
     "static/js/main.bca1ee05.chunk.js"
   ]
 }
