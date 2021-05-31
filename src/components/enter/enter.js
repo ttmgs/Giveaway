@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/enter.css";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../images/images.jpg";
 
 
 const Enter = () => {
