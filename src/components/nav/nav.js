@@ -19,11 +19,11 @@ function myFunction() {
 return(
 
 <div class="topnav" id="myTopnav">
-  <a href="/" class="active">
+  <a href="/Giveaway" class="active">
   <Link
-to="/"
+to="/Giveaway"
 className={
-  location.pathname === "/"
+  location.pathname === "/Giveaway"
     ? "nav-link active"
     : "nav-link"
 }

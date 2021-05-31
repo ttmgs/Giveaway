@@ -11,7 +11,7 @@ function App() {
 
     <Router>
    <Nav />
-   <Route exact path="/" component={Home} />
+   <Route exact path="/Giveaway" component={Home} />
    <Route exact path="/enter" component={Enter} />
    <Route exact path="/prizes" component={Prizes} />
    <Route exact path="/contact" component={Contact} />
