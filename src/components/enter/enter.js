@@ -16,11 +16,11 @@ const Enter = () => {
             <h1>
               etransfer $30 to windsorgiveaway1@gmail.com with your name or you can pay with cash
             </h1>
-            <h5>** each ballot is $30, then $20 every other one</h5>
+            <h5>** each name ballot = $30,  $20 every other one</h5>
             <h3>DRAW DATE: this coming Saturday, June 5th @9PM</h3>
           </div>
 <div id="how">
-  <h1 id="how">Names will be spun on a wheel</h1>
+  <h1 id="how">How we pick a winner🤔</h1>
 <img src={screenshot} alt='yo' style={{width: "420px", height: "250px"}}></img>
 <h3>website: <a href="https://wheelofnames.com/">wheelofnames.com</a> </h3>
 <h5 id="red">** draw will be live on worldstar windsor instagram @9pm</h5>
