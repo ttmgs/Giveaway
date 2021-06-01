@@ -14,7 +14,7 @@ const Enter = () => {
           <h2>HOW TO ENTER THE DRAW </h2>
           <div id="box">
             <h1>
-           <li> $30 for a name in the spinner, after its $20 (it counts for a group as well) </li> 
+           <li> $30 for a name in the spinner, after its $20 (counts for groups) </li> 
            <li> you can etransfer to <a href="#">windsorgiveaway@gmail.com </a>or pay cash </li>
             </h1>
             <h3>DRAW DATE: this Saturday, June 5th @9PM</h3>
