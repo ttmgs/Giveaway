@@ -6,7 +6,7 @@ const Footer = () => {
 <div>
 <div class="footer">
         <p>Sponsored by windsor el-chapo, Hoodboy and worldstar windsor
-        <p id="myname">website developer<a href="https://github.com/ttmgs"><i class="fa fa-github" href="#" style={{fontSize: "25px"}}></i></a></p></p>
+        <p id="myname">website created by<a href="https://github.com/ttmgs"><i class="fa fa-github" href="#" style={{fontSize: "25px"}}></i></a></p></p>
     
     </div>
 

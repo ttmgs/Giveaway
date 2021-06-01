@@ -112,7 +112,9 @@ button:hover::after, button:focus::after {
 }
 
 #wallpaper {
-  /* background-image: url('../images/images.jpg'); */
+  /* background-image: url('../images//water.jpg'); */
+  background-color: rgb(247, 194, 126);
+  background-size: contain;
   height: 100%;
   width: 100%;
 }

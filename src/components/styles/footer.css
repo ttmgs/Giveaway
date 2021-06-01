@@ -4,11 +4,12 @@
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 80px;
   background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
 }
 
 #myname {
-  font-family: cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
