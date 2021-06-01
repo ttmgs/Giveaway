@@ -14,10 +14,10 @@ const Enter = () => {
           <h2>HOW TO ENTER THE DRAW </h2>
           <div id="box">
             <h1>
-              etransfer $30 to windsorgiveaway1@gmail.com with your name or you can pay with cash
+           <li> $30 for a name in the spinner, after its $20 (it counts for a group as well) </li> 
+           <li> you can etransfer to <a href="#">windsorgiveaway@gmail.com </a>or pay cash </li>
             </h1>
-            <h5>** each name ballot = $30,  $20 every other one</h5>
-            <h3>DRAW DATE: this coming Saturday, June 5th @9PM</h3>
+            <h3>DRAW DATE: this Saturday, June 5th @9PM</h3>
           </div>
 <div id="how">
   <h1 id="how">How we pick a winner🤔</h1>
